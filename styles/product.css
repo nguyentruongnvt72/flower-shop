@@ -1,0 +1,110 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+header .cs-top-header {
+  display: flex;
+  flex-direction: row;
+  background-color: #262e35;
+  padding: 1em;
+  justify-content: space-between;
+}
+header .cs-top-header a {
+  color: #a4acca;
+  margin: 0 1em;
+}
+header .cs-top-header ul {
+  display: flex;
+  flex-direction: row;
+}
+header .cs-header {
+  background-image: linear-gradient(-134deg, pink 0%, #fab39c 50%, #f9a57c 100%);
+  display: flex;
+  align-items: center;
+  padding: 0.5em 2em;
+}
+header .cs-header span {
+  color: #262e35;
+}
+header .cs-header i {
+  color: #262e35;
+}
+header .cs-header .header-search form {
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  overflow: hidden;
+}
+header .cs-header .header-search form input {
+  flex: 7;
+  padding: 0.6em;
+  outline: none;
+  border: hidden;
+}
+header .cs-header .header-search form button {
+  outline: none;
+  border: hidden;
+}
+
+.cs-admin {
+  background-color: #262e35 !important;
+  height: 100vh;
+}
+.cs-admin .cs-login {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 90;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cs-admin .cs-login form {
+  height: 50vh;
+  display: flex;
+  width: 50vw;
+  flex-direction: column;
+  padding: 1em 2em;
+  justify-content: space-between;
+}
+.cs-admin .cs-login form div {
+  display: flex;
+  flex-direction: column;
+}
+.cs-admin .cs-login form h2 {
+  text-align: center;
+}
+.cs-admin .cs-login form input {
+  padding: 0.8em;
+  border-radius: 8px;
+  outline: none;
+}
+.cs-admin .cs-login form button {
+  padding: 0.8em;
+}
+
+.cs-sidebar {
+  display: flex !important;
+  flex-direction: column;
+}
+.cs-sidebar button {
+  padding: 1em;
+  background-color: #36414a !important;
+  color: white !important;
+}
+.cs-sidebar .dropdown {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+.cs-sidebar .dropdown button {
+  width: 100%;
+  background-color: #36414a !important;
+  color: white !important;
+}
+
+/*# sourceMappingURL=product.css.map */

@@ -1,0 +1,117 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+header {
+  .cs-top-header {
+    display: flex;
+    flex-direction: row;
+    background-color: #262e35;
+    padding: 1em;
+    justify-content: space-between;
+    a {
+      color: #a4acca;
+      margin: 0 1em;
+    }
+    ul {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  .cs-header {
+    background-image: linear-gradient(
+      -134deg,
+      pink 0%,
+      #fab39c 50%,
+      #f9a57c 100%
+    );
+    display: flex;
+    align-items: center;
+    padding: 0.5em 2em;
+    span {
+      color: #262e35;
+    }
+    i {
+      color: #262e35;
+    }
+    .header-search {
+      form {
+        display: flex;
+        flex-direction: row;
+        border-radius: 8px;
+        overflow: hidden;
+        input {
+          flex: 7;
+          padding: 0.6em;
+          outline: none;
+          border: hidden;
+        }
+        button {
+          outline: none;
+          border: hidden;
+        }
+      }
+    }
+  }
+}
+
+.cs-admin {
+  background-color: #262e35 !important;
+  height: 100vh;
+  .cs-login {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+
+    z-index: 90;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    form {
+      height: 50vh;
+      display: flex;
+      width: 50vw;
+      flex-direction: column;
+      padding: 1em 2em;
+      justify-content: space-between;
+      div {
+        display: flex;
+        flex-direction: column;
+      }
+      h2 {
+        text-align: center;
+      }
+      input {
+        padding: 0.8em;
+        border-radius: 8px;
+        outline: none;
+      }
+      button {
+        padding: 0.8em;
+      }
+    }
+  }
+}
+.cs-sidebar {
+  display: flex !important;
+  flex-direction: column;
+  button {
+    padding: 1em;
+    background-color: #36414a !important;
+    color: white !important;
+  }
+  .dropdown {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    button {
+      width: 100%;
+      background-color: #36414a !important;
+      color: white !important;
+    }
+  }
+}
