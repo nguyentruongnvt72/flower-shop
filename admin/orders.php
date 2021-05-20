@@ -38,7 +38,7 @@ if ($page == "" || $page == "1") {
           <h1>Đơn Đặt Hàng </h1>
           <i>Trang số: <?php echo $page; ?></i>
         </div><br>
-        <div class='table-responsive' style="flex: 1">
+        <div class='table-responsive' style="flex: 1; background-color:#E6EEEE">
           <div >
             <table class="table  table-hover table-striped" style="font-size:18px;">
               <tr>
@@ -51,7 +51,7 @@ if ($page == "" || $page == "1") {
                 <th></th>
               </tr>
               <?php
-              $query = "SELECT * FROM orders_info";
+              $query = "SELECT * FROM orders_info ";
               $run = mysqli_query($con, $query);
               if (mysqli_num_rows($run) > 0) {
 
@@ -104,19 +104,19 @@ if ($page == "" || $page == "1") {
         </div>
         <nav align="center">
           <?php
-          $paging = mysqli_query($con, "select product_id,product_image, product_title,product_price from products");
-          $count = mysqli_num_rows($paging);
-          $a = $count / 5;
-          $a = ceil($a);
-          echo "<bt>";
-          echo "<bt>";
-          for ($b = 1; $b <= $a; $b++) {
+          // $paging = mysqli_query($con, "SELECT * FROM orders_info");
+          // $count = mysqli_num_rows($paging);
+          // $a = $count / 5;
+          // $a = ceil($a);
+          // echo "<bt>";
+          // echo "<bt>";
+          // for ($b = 1; $b <= $a; $b++) {
           ?>
-            <ul class="pagination " style="border:groove #666">
-              <li><a class="label-info" href="orders.php?page=<?php echo $b; ?>"><?php echo $b . " "; ?></a></li>
-            </ul>
+            <!-- <ul class="pagination " style="border:groove #666">
+              <li><a class="label-info" href="orders.php?page=<?php //echo $b; ?>"><?php //echo $b . " "; ?></a></li>
+            </ul> -->
           <?php
-          }
+          // }
           ?>
         </nav>
       </div>
