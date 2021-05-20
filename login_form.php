@@ -17,7 +17,7 @@ if (isset($_POST["login_user_with_product"])) {
 		<form onsubmit="return false" id="login" class="login100-form ">
 			<div class="billing-details jumbotron">
 				<div class="section-title">
-					<h2 class="login100-form-title p-b-49">Login Here</h2>
+					<h2 class="login100-form-title p-b-49">Đăng nhập</h2>
 				</div>
 
 				<div class="form-group">
@@ -26,22 +26,19 @@ if (isset($_POST["login_user_with_product"])) {
 				</div>
 
 				<div class="form-group">
-					<label for="email">Password</label>
+					<label for="email">Mật khẩu</label>
 					<input class="input input-borders" type="password" name="password" placeholder="password" id="password" required>
 				</div>
 				<div class="text-pad">
 					<a href="#">
-						forget password ?
+						Quên mật khẩu ?
 					</a>
 				</div>
 				<input class="primary-btn btn-block" type="submit" Value="Login">
 
-				<div class="panel-footer">
-					<div class="alert alert-danger">
-						<h4 id="e_msg"></h4>
-					</div>
-				</div>
+				<div id="e_msg" ></div>
 			</div>
-		</form>
 	</div>
+	</form>
+</div>
 </div>

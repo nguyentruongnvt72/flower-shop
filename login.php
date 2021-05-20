@@ -63,7 +63,11 @@ if (isset($_POST["email"]) && isset($_POST["password"])) {
 			echo "<script> location.href='admin/add_product.php'; </script>";
 			exit;
 		} else {
-			echo "<span style='color:red;'>Please register before login..! <a href='/flower-shop'>Trở về trang chủ</a></span>";
+			echo "<div style='
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		'><span style='color:red;'>Please register before login..! </span><p class='btn btn-info'><a href='/flower-shop'>Trở về trang chủ</a><p></div>";
 			exit();
 		}
 	}
