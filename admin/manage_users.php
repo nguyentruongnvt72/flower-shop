@@ -31,11 +31,11 @@ if (isset($_GET['action']) && $_GET['action'] != "" && $_GET['action'] == 'delet
 				<h1>Quản Lý Người Dùng</h1>
 			</div><br>
 
-			<div style="overflow-x:scroll;">
+			<div style="overflow-x:scroll; background-color:#E6EEEE">
 				<table class="table table-bordered table-hover table-striped" style="font-size:18px">
 					<tr>
-						<th>User Name</th>
-						<th>User Password</th>
+						<th>Tài khoản</th>
+						<th></th>
 						<th><a href="add_user.php">Add New</a></th>
 					</tr>
 					<?php

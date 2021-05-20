@@ -1,12 +1,27 @@
 <?php
 
+// include("../db.php");
+// error_reporting(0);
+// if (isset($_GET['action']) && $_GET['action'] != "" && $_GET['action'] == 'delete') {
+//   $product_id = $_GET['product_id'];
+//   $result = mysqli_query($con, "select product_image from products where product_id='$product_id")
+//     or die("query is incorrect...");
+
+//   list($picture) = mysqli_fetch_array($result);
+//   $path = "../product_images/$picture";
+
+//   if (file_exists($path) == true) {
+//     unlink($path);
+//   } else {
+//   }
+//   mysqli_query($con, "delete from products where product_id='$product_id'") or die("query is incorrect...");
+// }
 include("../db.php");
 error_reporting(0);
 if (isset($_GET['action']) && $_GET['action'] != "" && $_GET['action'] == 'delete') {
   $product_id = $_GET['product_id'];
-  ///////picture delete/////////
-  $result = mysqli_query($con, "select product_image from products where product_id='$product_id")
-    or die("query is incorrect...");
+  $result = mysqli_query($con, "select product_image from products where product_id='$product_id'")
+    or die("query is incorrect... 1");
 
   list($picture) = mysqli_fetch_array($result);
   $path = "../product_images/$picture";
@@ -15,10 +30,10 @@ if (isset($_GET['action']) && $_GET['action'] != "" && $_GET['action'] == 'delet
     unlink($path);
   } else {
   }
-  /*this is delet query*/
-  mysqli_query($con, "delete from products where product_id='$product_id'") or die("query is incorrect...");
+  $kkkk = mysqli_query($con, "DELETE FROM products WHERE product_id='$product_id'") ;
+  // die($kkkk);
+  echo "<script>console.log('Debug Objects: " . $kkkk . "' );</script>";
 }
-
 ///pagination
 $page = $_GET['page'];
 
@@ -32,13 +47,13 @@ if ($page == "" || $page == "1") {
 <html lang="en">
 
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Quản trị hoa xinh</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="style/css/bootstrap.min.css" rel="stylesheet">
-	<link href="style/css/k.css" rel="stylesheet">
-	<link href="../styles/product.css" rel="stylesheet">
-	<script src="style/js/jquery.min.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Quản trị hoa xinh</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style/css/k.css" rel="stylesheet">
+  <link href="../styles/product.css" rel="stylesheet">
+  <script src="style/js/jquery.min.js"></script>
 </head>
 
 <body>
@@ -47,11 +62,11 @@ if ($page == "" || $page == "1") {
     <div class="container-fluid ">
       <?php include("include/side_bar.php"); ?>
       <div class="col-md-9 content" style="margin-left:10px">
-        <div class="panel-heading"  style="background-color:#36414A; color: white;">
+        <div class="panel-heading" style="background-color:#36414A; color: white;">
           <h1>Cosmetics List / Page <?php echo $page; ?></h1>
         </div><br>
         <div class='table-responsive'>
-          <div style="overflow-x:scroll;">
+          <div style="overflow-x:scroll; background-color:#E6EEEE">
             <table class="table  table-hover table-striped" style="font-size:18px">
               <tr>
                 <th>Image</th>
