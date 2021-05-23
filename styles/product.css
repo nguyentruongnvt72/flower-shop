@@ -107,4 +107,30 @@ header .cs-header .header-search form button {
   color: white !important;
 }
 
+footer {
+  background-color: #262e35;
+}
+footer .section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+footer .section div {
+  margin: 1em 1em;
+}
+footer .section a {
+  margin: 0 1em;
+  color: white;
+}
+footer .section h1 {
+  color: white;
+}
+footer .section .sss ul {
+  display: flex;
+  flex-direction: row;
+}
+
 /*# sourceMappingURL=product.css.map */

@@ -115,3 +115,30 @@ header {
     }
   }
 }
+footer {
+  background-color: #262e35;
+  .section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    div {
+      margin: 1em 1em;
+    }
+    a {
+      margin: 0 1em;
+      color: white;
+    }
+    h1 {
+      color: white;
+    }
+    .sss {
+      ul {
+        display: flex;
+        flex-direction: row;
+      }
+    }
+  }
+}
