@@ -44,7 +44,6 @@ if (isset($_POST["email"]) && isset($_POST["password"])) {
 		} else {
 			header('Location: index.php');
 		}
-
 		exit;
 	} else {
 		$email = mysqli_real_escape_string($con, $_POST["email"]);
@@ -58,8 +57,6 @@ if (isset($_POST["email"]) && isset($_POST["password"])) {
 			$_SESSION["uid"] = $row["admin_id"];
 			$_SESSION["name"] = $row["admin_name"];
 			$ip_add = getenv("REMOTE_ADDR");
-			echo "login_success";
-
 			echo "<script> location.href='admin/add_product.php'; </script>";
 			exit;
 		} else {

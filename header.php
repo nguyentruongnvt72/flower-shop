@@ -36,9 +36,9 @@ session_start();
 	<header>
 		<div id="top-header" class="cs-top-header">
 			<ul class="header-links pull-left">
-				<li><a href="#"><i class="fa fa-phone"></i> +91-9535688928</a></li>
-				<li><a href="#"><i class="fa fa-envelope-o"></i> puneethreddy951@gmail.com</a></li>
-				<li><a href="#"><i class="fa fa-map-marker"></i>Bangalore</a></li>
+				<li><a href="tel: 0865819972"><i class="fa fa-phone"></i> 0865819972</a></li>
+				<li><a href="mailto: shophoa@uet.vn"><i class="fa fa-envelope-o"></i> shophoa@uet.vn</a></li>
+				<li><a href="#"><i class="fa fa-map-marker"></i> 144 Xuân Thủy</a></li>
 			</ul>
 			<ul class="header-links pull-right">
 				<li><?php
