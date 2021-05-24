@@ -44,7 +44,6 @@ if (isset($_POST["email"]) && isset($_POST["password"])) {
 		} else {
 			header('Location: index.php');
 		}
-
 		exit;
 	} else {
 		$email = mysqli_real_escape_string($con, $_POST["email"]);
@@ -58,12 +57,14 @@ if (isset($_POST["email"]) && isset($_POST["password"])) {
 			$_SESSION["uid"] = $row["admin_id"];
 			$_SESSION["name"] = $row["admin_name"];
 			$ip_add = getenv("REMOTE_ADDR");
-			echo "login_success";
-
 			echo "<script> location.href='admin/add_product.php'; </script>";
 			exit;
 		} else {
-			echo "<span style='color:red;'>Please register before login..! <a href='/flower-shop'>Trở về trang chủ</a></span>";
+			echo "<div style='
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		'><span style='color:red;'>Please register before login..! </span><p class='btn btn-info'><a href='/flower-shop'>Trở về trang chủ</a><p></div>";
 			exit();
 		}
 	}

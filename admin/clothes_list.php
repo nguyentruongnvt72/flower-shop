@@ -51,7 +51,7 @@ if ($page == "" || $page == "1") {
           <i>Trang số: <?php echo $page; ?></i>
         </div><br>
         <div class='table-responsive'>
-          <div style="overflow-x:scroll;">
+          <div style="overflow-x:scroll;  background-color:#E6EEEE">
             <table class="table  table-hover table-striped" style="font-size:18px">
               <tr>
                 <th>Image</th>
