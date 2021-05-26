@@ -38,11 +38,11 @@ if (isset($_POST["email"]) && isset($_POST["password"])) {
 		echo "login_success";
 		$BackToMyPage = $_SERVER['HTTP_REFERER'];
 		if (!isset($BackToMyPage)) {
-			header('Location: ' . $BackToMyPage);
+			// header('Location: ' . $BackToMyPage);
 			echo "<script type='text/javascript'>
 					</script>";
 		} else {
-			header('Location: index.php');
+			// header('Location: index.php');
 		}
 		exit;
 	} else {
@@ -64,8 +64,9 @@ if (isset($_POST["email"]) && isset($_POST["password"])) {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-		'><span style='color:red;'>Please register before login..! </span><p class='btn btn-info'><a href='/flower-shop'>Trở về trang chủ</a><p></div>";
+		'><span style='color:red;'>Đăng nhập không thành công</span></div>";
 			exit();
 		}
 	}
+	// header('Location: index.php');
 }

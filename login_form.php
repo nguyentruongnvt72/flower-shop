@@ -35,8 +35,12 @@ if (isset($_POST["login_user_with_product"])) {
 					</a>
 				</div>
 				<input class="primary-btn btn-block" type="submit" Value="Login">
-
-				<div id="e_msg" ></div>
+				<!-- <div class="panel-footer">
+					<div class="alert alert-danger"> -->
+						<h4 id="e_msg"></h4>
+					<!-- </div>
+				</div> -->
+				<!-- <div id="e_msg" ></div> -->
 			</div>
 	</div>
 	</form>
