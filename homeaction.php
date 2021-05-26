@@ -12,6 +12,7 @@ if (isset($_POST["categoryhome"])) {
 					<!-- NAV -->
 					<ul class='main-nav nav navbar-nav'>
                     <li class='active'><a href='index.php'>Trang chủ</a></li>
+					<li><a href='store.php'> Cửa hàng </a></li>
 	";
 	if (mysqli_num_rows($run_query) > 0) {
 		while ($row = mysqli_fetch_array($run_query)) {
