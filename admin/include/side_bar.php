@@ -17,16 +17,16 @@
     <!-- <button type="button" class="btn btn-default btn-primary" onClick="location.href='add_user.php'">
       <span class="glyphicon glyphicon-edit pull-left"></span> Thêm người dùng
     </button> -->
-    <div style="display: flex; flex-direction: column;">
-      <button type="button" class="btn btn-default dropdown-toggle btn-primary" id="dropdownMenuButton" >
+    <!-- <div style="display: flex; flex-direction: column;"> -->
+      <button type="button" class="btn btn-default dropdown-toggle btn-primary" onClick="location.href='product_list.php'" >
         <span class="glyphicon glyphicon-edit pull-left"></span> Danh sách sản phẩm
-        <span class="glyphicon glyphicon-triangle-bottom pull-right"></span>
+        <!-- <span class="glyphicon glyphicon-triangle-bottom pull-right"></span> -->
       </button>
-      <div style="display: none; flex-direction: column;" id="cs-dmt">
+      <!-- <div style="display: none; flex-direction: column;" id="cs-dmt">
         <a href="clothes_list.php" class="btn  btn-default btn-primary" ><strong>Hoa tươi</strong> </a>
         <a href="cosmetics_list.php" class="btn  btn-default btn-primary" ><strong>Tiểu cảnh</strong></a>
-      </div>
-    </div>
+      </div> -->
+    <!-- </div> -->
   </div>
 
 </div>

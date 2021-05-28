@@ -61,7 +61,7 @@ if ($page == "" || $page == "1") {
               </tr>
 
               <?php
-              $result = mysqli_query($con, "select product_id,product_image, product_title,product_price from products  where  product_cat=1 or product_cat=7 Limit $page1,10") or die("query 1 incorrect.....");
+              $result = mysqli_query($con, "select product_id,product_image, product_title,product_price from products  Limit $page1,10") or die("query 1 incorrect.....");
 
               while (list($product_id, $image, $product_name, $price) = mysqli_fetch_array($result)) {
                 echo "<tr><td><img src='../product_images/$image' style='width:50px; height:50px;border:groove #000'></td><td>$product_name</td><td>$price</td>
