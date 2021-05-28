@@ -40,7 +40,7 @@ if ($page == "" || $page == "1") {
         </div><br>
         <div class='table-responsive' style="flex: 1; background-color:#E6EEEE">
           <div >
-            <table class="table  table-hover table-striped" style="font-size:18px;">
+            <table class="table table-bordered table-hover table-striped" style="font-size:18px;">
               <tr>
                 <th>Tên Khách Hàng</th>
                 <th>Sản Phẩm</th>

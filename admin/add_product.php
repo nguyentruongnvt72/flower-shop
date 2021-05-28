@@ -87,8 +87,8 @@ if (isset($_POST['submit'])) {
                                 <p>Loại sản phẩm ( mã số )</p>
                                 <input type="number" name="product_type" id="product_type" class="form-control" placeholder="1 Hoa Tươi,2 Tiểu Cảnh, ...">
                                 <br>
-                                <p>Vendor / Brand</p>
-                                <input type="number" name="brand" id="brand" class="form-control" placeholder="1 HP,2 Samsung,3 Apple,4 motorolla">
+                                <p>Thương hiệu</p>
+                                <input type="number" name="brand" id="brand" class="form-control">
                                 <br>
                                 <p>Tag khác</p>
                                 <input type="text" name="tags" id="tags" class="form-control" placeholder="Violet, Rose, 8-3">

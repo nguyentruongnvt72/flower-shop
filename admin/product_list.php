@@ -90,7 +90,7 @@ if ($page == "" || $page == "1") {
           for ($b = 1; $b <= $a; $b++) {
           ?>
             <ul class="pagination" style="border:groove #666">
-              <li><a class="label-info" href="cosmetics_list.php?page=<?php echo $b; ?>"><?php echo $b . " "; ?></a></li>
+              <li><a class="label-info" href="product_list.php?page=<?php echo $b; ?>"><?php echo $b . " "; ?></a></li>
             </ul>
           <?php
           }
