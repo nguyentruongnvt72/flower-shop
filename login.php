@@ -10,8 +10,8 @@ if (isset($_POST["email"]) && isset($_POST["password"])) {
 	$run_query = mysqli_query($con, $sql);
 	$count = mysqli_num_rows($run_query);
 	$row = mysqli_fetch_array($run_query);
-	$_SESSION["uid"] = $row["user_id"];
-	$_SESSION["name"] = $row["first_name"];
+	$_SESSION["uid"] = isset($row["user_id"]) ? $row["user_id"] : null ;
+	$_SESSION["name"] =  isset($row["first_name"]) ? $row["first_name"] : null;
 	$ip_add = getenv("REMOTE_ADDR");
 
 	if ($count == 1) {

@@ -83,13 +83,13 @@ session_start();
 				data: [0, 10, 5, 2, 20, 30, 45],
 			},
 			{
-				label: 'Lượt Xem Trang',
+				label: 'Order',
 				backgroundColor: '#94d0cc',
 				borderColor: '#94d0cc',
 				data: [3, 20, 3, 5, 10, 28, 35],
 			},
 			{
-				label: 'Lượt Mua',
+				label: 'Product',
 				backgroundColor: '#511281',
 				borderColor: '#511281',
 				data: [0, 18, 6, 7, 11, 26, 42],

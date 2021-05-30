@@ -88,10 +88,10 @@ if (isset($_POST['submit'])) {
                                 <input type="number" name="product_type" id="product_type" class="form-control" placeholder="1 Hoa Tươi,2 Tiểu Cảnh, ...">
                                 <br>
                                 <p>Thương hiệu</p>
-                                <input type="number" name="brand" id="brand" class="form-control">
+                                <input type="number" name="brand" id="brand" class="form-control" placeholder="1 Hoa Sinh Nhat,2 Hoa Chuc Mung, ...">
                                 <br>
                                 <p>Tag khác</p>
-                                <input type="text" name="tags" id="tags" class="form-control" placeholder="Violet, Rose, 8-3">
+                                <input type="text" name="tags" id="tags" class="form-control" >
                             </div>
                         </div>
 
