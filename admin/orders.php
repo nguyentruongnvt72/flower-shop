@@ -19,7 +19,7 @@ if ($page == "" || $page == "1") {
 <html lang="en">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>Quản trị hoa xinh</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="style/css/bootstrap.min.css" rel="stylesheet">
