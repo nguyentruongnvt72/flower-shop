@@ -353,7 +353,7 @@ if (isset($_POST["Common"])) {
 			//display user cart item with "Ready to checkout" button if user is not login
 			echo '<div class="main ">
 			<div class="table-responsive">
-			<form method="post" action="login_form.php">
+			<form method="post" action="login_form.php" accept-charset="utf-8">
 			
 	               <table id="cart" class="table table-hover table-condensed" id="">
     				<thead>
@@ -439,7 +439,7 @@ if (isset($_POST["Common"])) {
 				echo '
 					</form>
 					
-						<form action="checkout.php" method="post">
+						<form action="checkout.php" method="post" accept-charset="utf-8">
 							<input type="hidden" name="cmd" value="_cart">
 							<input type="hidden" name="business" value="shoppingcart@puneeth.com">
 							<input type="hidden" name="upload" value="1">';
