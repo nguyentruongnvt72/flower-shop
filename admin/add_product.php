@@ -3,7 +3,7 @@
 include("../db.php");
 session_start();
 
-
+header('Content-Type: text/html; charset=utf-8');
 if (isset($_POST['submit'])) {
     $product_name = $_POST['product_name'];
     $details = $_POST['details'];
@@ -61,7 +61,7 @@ if (isset($_POST['submit'])) {
                     <div class="panel-body" style="background-color:#E6EEEE;">
                         <div class="col-lg-7">
                             <div class="well">
-                                <form action="add_product.php" method="post" name="form" enctype="multipart/form-data">
+                                <form action="add_product.php" method="post" name="form" enctype="multipart/form-data" accept-charset="utf-8">
                                     <p>Tiêu đề</p>
                                     <input class="input-lg thumbnail form-control" type="text" name="product_name" id="product_name" autofocus style="width:100%" placeholder="Tên Sản Phẩm" required>
                                     <p>Mô Tả</p>

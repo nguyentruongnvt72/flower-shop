@@ -14,7 +14,7 @@ if (isset($_POST["login_user_with_product"])) {
 </div>
 <div class="container-fluid">
 	<div class="login-marg">
-		<form onsubmit="return false" id="login" class="login100-form ">
+		<form onsubmit="return false" id="login" class="login100-form " accept-charset="utf-8">
 			<div class="billing-details jumbotron">
 				<div class="section-title">
 					<h2 class="login100-form-title p-b-49">Đăng nhập</h2>

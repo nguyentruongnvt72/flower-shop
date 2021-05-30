@@ -42,7 +42,7 @@ if (isset($_POST['btn_save'])) {
                     <h1>Add User </h1>
                 </div><br>
 
-                <form action="add_user.php" name="form" method="post">
+                <form action="add_user.php" name="form" method="post" accept-charset="utf-8">
                     <div class="col-sm-6">
                         <input name="first_name" class="input-lg" type="text" id="first_name" style="font-size:18px; width:330px" placeholder="First Name" autofocus required><br><br>
                     </div>

@@ -226,7 +226,17 @@ include "header.php";
 								<div id="tab1" class="tab-pane fade in active">
 									<div class="row">
 										<div class="col-md-12">
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+											<p>Miễn Phí Vận Chuyển cho hóa đơn trên 199,000đ tại khu vực nội thành Tp.HCM & Hà Nội.
+											Giao hàng trong ngày tại khu vực Tp.HCM & Hà Nội khi đặt hàng trước 17h mỗi ngày; và giao hàng từ 2-3 ngày cho các tỉnh/ thành khác toàn quốc. 
+											
+											Bó hoa Hồng đỏ đầy lãng mạn là món quà hoàn hảo thay lời muốn nói gửi đến người thương cũa bạn vào Valentine hoặc ngày kỷ niệm, sinh nhật.
+											Bó Hoa Hồng Fall For You gồm:
+											
+											- 24 cành Hoa Hồng
+											
+											- Các loại Hoa và Lá khác
+											
+											 *Do mỗi sản phẩm đều được làm thủ công nên sẽ có chút khác biệt so với hình ảnh sẵn có trên website.</p>
 										</div>
 									</div>
 								</div>
@@ -236,7 +246,17 @@ include "header.php";
 								<div id="tab2" class="tab-pane fade in">
 									<div class="row">
 										<div class="col-md-12">
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+											<p>Miễn Phí Vận Chuyển cho hóa đơn trên 199,000đ tại khu vực nội thành Tp.HCM & Hà Nội.
+											Giao hàng trong ngày tại khu vực Tp.HCM & Hà Nội khi đặt hàng trước 17h mỗi ngày; và giao hàng từ 2-3 ngày cho các tỉnh/ thành khác toàn quốc. 
+											
+											Bó hoa Hồng đỏ đầy lãng mạn là món quà hoàn hảo thay lời muốn nói gửi đến người thương cũa bạn vào Valentine hoặc ngày kỷ niệm, sinh nhật.
+											Bó Hoa Hồng Fall For You gồm:
+											
+											- 24 cành Hoa Hồng
+											
+											- Các loại Hoa và Lá khác
+											
+											 *Do mỗi sản phẩm đều được làm thủ công nên sẽ có chút khác biệt so với hình ảnh sẵn có trên website.</p>
 										</div>
 									</div>
 								</div>
@@ -346,7 +366,10 @@ include "header.php";
 															</div>
 														</div>
 														<div class="review-body">
-															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+															<p>Miễn Phí Vận Chuyển cho hóa đơn trên 199,000đ tại khu vực nội thành Tp.HCM & Hà Nội.
+															Giao hàng trong ngày tại khu vực Tp.HCM & Hà Nội khi đặt hàng trước 17h mỗi ngày; và giao hàng từ 2-3 ngày cho các tỉnh/ thành khác toàn quốc. 
+															
+															</p>
 														</div>
 													</li>
 													<li>
@@ -362,7 +385,9 @@ include "header.php";
 															</div>
 														</div>
 														<div class="review-body">
-															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+															<p>Miễn Phí Vận Chuyển cho hóa đơn trên 199,000đ tại khu vực nội thành Tp.HCM & Hà Nội.
+															Giao hàng trong ngày tại khu vực Tp.HCM & Hà Nội khi đặt hàng trước 17h mỗi ngày; và giao hàng từ 2-3 ngày cho các tỉnh/ thành khác toàn quốc. 
+															</p>
 														</div>
 													</li>
 													<li>
@@ -378,7 +403,9 @@ include "header.php";
 															</div>
 														</div>
 														<div class="review-body">
-															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+															<p>Miễn Phí Vận Chuyển cho hóa đơn trên 199,000đ tại khu vực nội thành Tp.HCM & Hà Nội.
+															Giao hàng trong ngày tại khu vực Tp.HCM & Hà Nội khi đặt hàng trước 17h mỗi ngày; và giao hàng từ 2-3 ngày cho các tỉnh/ thành khác toàn quốc. 
+															</p>
 														</div>
 													</li>
 												</ul>

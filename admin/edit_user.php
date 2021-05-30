@@ -40,7 +40,7 @@ if (isset($_POST['btn_save'])) {
                 <div class="panel-heading"  style="background-color:#36414A; color: white;">
                     <h1>Edit User Details </h1>
                 </div><br>
-                <form action="edit_user.php" name="form" method="post" enctype="multipart/form-data">
+                <form action="edit_user.php" name="form" method="post" enctype="multipart/form-data" accept-charset="utf-8">
                     <input type="hidden" name="user_id" id="user_id" value="<?php echo $user_id; ?>" />
 
 

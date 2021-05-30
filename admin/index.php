@@ -46,7 +46,7 @@ session_start();
 		} else {
 			echo '
 				<div class="cs-login">
-				<form class="modal-content animate" action="../login.php" method="post">
+				<form class="modal-content animate" action="../login.php" method="post" accept-charset="utf-8">
 				<h2>Đăng nhập trang quản trị</h2>
 					<div>
 						<label for="uname"><b>Username</b></label>

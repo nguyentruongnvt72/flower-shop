@@ -12,7 +12,7 @@ $link = $_REQUEST['success'];
 </head>
 
 <body onLoad="myfunction()">
-	<form action="index.php" method="post" id="myform">
+	<form action="index.php" method="post" id="myform" accept-charset="utf-8">
 		<input hidden="" type="text" name="success" value="<?php echo "$link"; ?>">
 		<button hidden="" type="submit" id="success" data-modal="success" name="success" value="success"></button>
 	</form>

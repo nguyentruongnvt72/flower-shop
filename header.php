@@ -85,7 +85,7 @@ session_start();
 			</div>
 			<div class="col-md-6">
 				<div class="header-search">
-					<form>
+					<form accept-charset="utf-8">
 						<input id="search" type="text" placeholder="Nhập tên sản phẩm">
 						<button type="submit" id="search_btn" class="search-btn">Tìm kiếm</button>
 					</form>

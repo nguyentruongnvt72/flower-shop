@@ -115,7 +115,7 @@ span.price {
 		echo'
 			<div class="col-75">
 				<div class="container-checkout">
-				<form id="checkout_form" action="checkout_process.php" method="POST" class="was-validated">
+				<form id="checkout_form" action="checkout_process.php" method="POST" class="was-validated" accept-charset="utf-8">
 
 					<div class="row-checkout">
 					
@@ -285,7 +285,7 @@ span.price {
 					<div class="col-md-12">
 						<div class="newsletter">
 							<!-- <p>Sign Up for the <strong>NEWSLETTER</strong></p> -->
-							<form >
+							<form accept-charset="utf-8">
 								<input class="input" type="email" placeholder="Enter Your Email">
 								<button class="newsletter-btn"><i class="fa fa-envelope"></i> Subscribe</button>
 							</form>
